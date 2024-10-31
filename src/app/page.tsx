@@ -1,9 +1,10 @@
 import Image from "next/image";
+import BlogIndex from "./component/blog-index/blog-index";
 
 export default function Home() {
   return (
    <div>
-    这个是首页
+    <BlogIndex></BlogIndex>
    </div>
   );
 }
