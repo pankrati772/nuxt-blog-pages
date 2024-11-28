@@ -1,0 +1,28 @@
+.layout-art{
+    display: flex;
+    padding-top: 5px;
+    width: 100%;
+    height: 100vh;
+    background: rgba(204, 204, 204, .3);
+}
+
+.art-left{
+    width: 80%;
+}
+
+.art-right{
+    width: 20%;
+}
+
+
+
+
+
+/*顶部样式 */
+.art-top{
+    width: 99%;
+    height: auto;
+    background-color: white;
+    border-radius: 10px 10px 0 10px ;
+    margin: 5px;
+}
