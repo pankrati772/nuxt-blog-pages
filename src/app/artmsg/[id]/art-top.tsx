@@ -5,7 +5,6 @@ import React from 'react'
 
 import { Button } from 'antd'
 import { useRouter } from 'next/navigation';
-import './index.css'
 function artTop() {
   const router = useRouter()
 
@@ -14,7 +13,7 @@ function artTop() {
     router.push('/')
   }
   return (
-    <div className='art-top'>
+  <div className='art-top w-[98%] h-auto bg-white m-5 p-5 rounded-t-lg rounded-br-lg'>
       <Button type='primary' onClick={goBack}>返回</Button>
     </div>
   )

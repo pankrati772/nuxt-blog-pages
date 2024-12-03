@@ -5,6 +5,10 @@ export default function BlogRight() {
  
     const cardMsg2 = [
         {
+            title: '姓名',
+            content: '阿BEN'
+        },
+        {
             title: '联系方式',
             content: '17702084823'
         },

@@ -9,7 +9,7 @@ export default function artmsg(
   { params }: Params
 ) {
   return (
-   <div>
+   <div className="m-5 p-4 bg-white w-[98%]">
     <div>参数：{JSON.stringify(params.id)}</div>
    </div>
   );

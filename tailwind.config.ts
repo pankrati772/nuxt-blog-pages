@@ -11,9 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customGray: 'rgba(204, 204, 204, 0.3)', // 背景颜色
+        boxforeground: 'var(--boxforeground)',
+        boxbackground: 'var(--boxbackground)'
       },
     },
   },
   plugins: [],
 };
 export default config;
+ 

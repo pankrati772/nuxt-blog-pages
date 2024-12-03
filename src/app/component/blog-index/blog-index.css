@@ -21,14 +21,9 @@
 
 /* 展示盒子边框 */
 
-.showbox{
+/* .showbox{
     border-radius: 10px 10px 0 10px ;
     color: var(--boxforeground);
     background: var(--boxbackground);
     margin: 5px;
-}
-
-.topbox{
-    /* height: 300px; */
-    
-}
+} */

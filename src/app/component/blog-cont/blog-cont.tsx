@@ -34,7 +34,7 @@ export class BlogCont extends Component {
       }
     return (
         <Card>
-            <div className='blog-content'>
+            <div className='blog-content w-100% h-auto'>
 
             <Tabs defaultActiveKey="1" items={items} onChange={onChange} />
       </div>

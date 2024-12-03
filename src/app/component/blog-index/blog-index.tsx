@@ -43,15 +43,18 @@ class BlogIndex extends Component {
     return (
       <div className='blog'>
         <div className="left">
-          <div className="topbox showbox">
+          <div className="showbox text-boxforeground bg-boxbackground m-3 overflow-hidden rounded-t-lg rounded-br-lg">
             <BlogTop></BlogTop>
           </div>
-          <div className="contbox">
+          <div className="contbox m-3">
             <BlogCont></BlogCont>
           </div>
         </div>
-        <div className="right">
+        <div className="right ">
+          <div className="m-3">
+
           <BlogRight></BlogRight>
+          </div>
         </div>
 
 
